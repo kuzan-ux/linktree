@@ -1,0 +1,166 @@
+.App {
+  position: relative;
+  text-align: center;
+  background-color: #FFFFFF;
+  width: 1440px;
+  height: 1158px;
+}
+
+@media (max-width: 400px) {
+
+  .App {
+    position: relative;
+    text-align: center;
+    width: 375px;
+    height: 1088px;
+    overflow-y: scroll;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 32px;
+    gap: 24px;
+    /* position: absolute; */
+    width: 375px;
+    height: 892px;
+    left: 0px;
+    right: 0px;
+  }
+
+  #main {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 0px 16px;
+    gap: 16px;
+    width: 375px;
+    height: 700px;
+  }
+
+  #main2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 345px;
+    height: 700px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 420px; */
+    isolation: isolate;
+    width: 343px;
+    height: 140px;
+  }
+
+  header #profile__img {
+    gap: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 200px;
+    align-items: center;
+  }
+
+  #twitter {
+    padding: 0px 5px;
+    width: 343px;
+    height: 15px;
+    gap: 4px;
+    font-size: small;
+  }
+
+  #shareicon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 300px;
+  }
+
+  #links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 343px;
+    height: 528px;
+  }
+
+  .btn {
+    background-color: #EAECF0;
+    color: #101828;
+    font-family: 'Inter';
+    padding: 17px;
+    text-decoration: none;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 30px;
+    width: 300px;
+    height: 68px;
+    border-radius: 5px;
+    border: none;
+  }
+  .btn:hover {
+    background-color: rgba(1, 16, 46, 0.05)
+  }
+
+  #social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0px;
+    gap: 62px;
+    width: 375px;
+    height: 72px;
+  }
+
+  #social2 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0px;
+    width: 343px;
+    height: 24px;
+    gap: 32px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 38px 0px;
+    gap: 64px;
+
+    position: absolute;
+    width: 375px;
+    height: 196px;
+    left: 0px;
+    top: 892px;
+  }
+
+  #foot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 16px;
+    gap: 32px;
+    width: 375px;
+    height: 132px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    padding-left: 20px;
+  }
+}

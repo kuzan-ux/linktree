@@ -1,0 +1,160 @@
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 112px;
+  gap: 24px;
+  /* position: absolute; */
+  width: 1440px;
+  height: 998px;
+  left: 0px;
+  right: 0px;
+}
+
+#main{
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  padding: 0px 32px;
+  gap: 32px;
+  width: 1216px;
+  height: 774px;
+}
+
+#main2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 56px;
+  width: 1152px;
+  height: 774px;
+}
+
+header {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0; */
+  gap: 24px;
+  isolation: isolate;
+  width: 1152px;
+  height: 142px;
+}
+
+#profile__img {
+  width: 120px;
+  height: 120px;
+  border-radius: 200px;
+}
+
+/* #profile_img:hover{
+  background-image: url('./assets/images/icon hover.png');
+} */
+
+
+#twitter {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  padding: 0px 10px;
+  padding-bottom: 10px;
+  width: 1152px;
+  height: 30px;
+  gap: 8px;
+}
+
+#shareicon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 250px;
+
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  gap: 24px;
+  width: 1152px;
+  height: 576px;
+}
+
+.btn {
+  background-color: #EAECF0;
+  color: #101828;
+  font-family: 'Inter';
+  padding: 25px;
+  text-decoration: none;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 28px;
+  width: 1152px;
+  height: 70px;
+  border-radius: 5px;
+  border: none;
+  /* filter: drop-shadow(0px 2px 3px rgba(16, 24, 40, 0.05)); */
+}
+
+.btn:hover {
+  background-color: rgba(1, 16, 46, 0.05)
+}
+
+#social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 32px;
+  gap: 32px;
+  width: 1216px;
+  height: 24px;
+}
+
+#social2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 1152px;
+  height: 24px;
+  gap: 24px;
+}
+
+.socialicon {
+  padding-right: 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 0px;
+  gap: 64px;
+
+  position: absolute;
+  width: 1440px;
+  height: 160px;
+  left: 0px;
+  top: 998px;
+}
+
+#foot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 32px;
+  gap: 32px;
+  width: 1280px;
+  height: 64px;
+}
+
+@media (min-width: 400px) {
+  .mobile {
+    display: none;
+}
+}
