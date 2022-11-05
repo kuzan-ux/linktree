@@ -1,14 +1,15 @@
-// import react from 'react';
+import React from 'react';
 import './App.css';
-import Main from './components/Main';
-import Footer from './components/Footer';
+import { Routes, Route } from "react-router-dom";
+import Home from './pages/Home/Home';
+import Contact from './pages/Contact/Contact';
 
 function App() {
   return (
-    <div className="App">
-        <Main />
-        <Footer />
-    </div>
+    <Routes>
+      <Route path="/linktree" element={<Home />} />
+      <Route path="/linktree/contact" element={<Contact />} />
+    </Routes>
   );
 }
 

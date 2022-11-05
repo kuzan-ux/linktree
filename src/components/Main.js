@@ -1,5 +1,6 @@
-// import react from 'react';
+import React from 'react';
 import icon1 from '../assets/images/ppic.jpg';
+import { Link } from "react-router-dom";
 // import hover from '../assets/images/icon hover.png';
 import share from '../assets/images/share.png';
 import slack from "../assets/images/slack.png";
@@ -9,7 +10,7 @@ import git from "../assets/images/git.png";
 function Main() {
   let twitter="#";
   let zuri= "https://training.zuri.team/";
-  let books="http://books.zuri.team";
+  let books="https://books.zuri.team";
   let python="https://books.zuri.team/python-for-beginners?ref_id=KuzanSenpai";
   let background="https://background.zuri.team";
   let design="https://books.zuri.team/design-rules";
@@ -36,6 +37,7 @@ function Main() {
             <a href={ python } id="book__python" className="btn">Python Books</a>
             <a href={ background } id="pitch" className="btn">Background Check For Coders</a>
             <a href={ design } id="book__design" className="btn">Design Books</a>
+            <a href='linktree/contact' className="btn"><Link to={"/linktree/contact"} >Contact Me</Link></a>
           </div>
           <div id="social">
             <div id="social2">
