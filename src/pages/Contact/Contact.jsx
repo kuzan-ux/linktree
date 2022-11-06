@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
 import { HiCheck} from 'react-icons/hi';
-import Footer from '../../components/Footer';
+import Footer from '../../components/Footer/Footer';
 import './contact.css';
 
 const Contact = () => {

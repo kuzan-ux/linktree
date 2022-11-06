@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: tomato;
 }
 form p{
   margin-top: 5px;
@@ -35,11 +34,11 @@ form p{
 }
 .menu-header {
   width: 100%;
-  height: 154px;
+  height: 94px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  
+  gap: 20px;
 }
 .menu-main {
   width: 100%;
@@ -216,8 +215,7 @@ svg.icon,#input {
   height: 20px;
 }
 
-/* Smaller devices (portrait and landscape) ----------- */
-@media only screen and (max-device-width : 859px) {
+@media only screen and (max-device-width : 480px) {
   .contact {
     width: 100%;
     height: 1082px;
